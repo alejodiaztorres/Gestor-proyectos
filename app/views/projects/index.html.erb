@@ -1,0 +1,35 @@
+<h1 class="pt-2 text-center">
+    Proyecto
+</h1>
+
+<form class="container" method="get" action="/projects/create">
+
+    <div class="form-group">
+        <label for="name">Name</label>
+        <input name="name" class="form-control" id="create_posts">
+    </div>
+
+    <div class="form-group">
+        <label for="description">Description</label>
+        <textarea name="description" class="form-control"></textarea>
+    </div>
+
+    <div class="form-group">
+        <label for="fecha_inicio">Start date</label>
+        <input type="date" name="fecha_inicio" class="form-control">
+    </div>
+
+    <div class="form-group">
+        <label for="fecha_fin">End date</label>
+        <input type="date" name="fecha_fin" class="form-control">
+    </div>
+
+    <div class="form-group">
+        <label for="state">State</label>
+        <input name="state" class="form-control">
+    </div>
+
+
+
+    <button type="submit" class="btn btn-primary"> Create </button>
+</form>
